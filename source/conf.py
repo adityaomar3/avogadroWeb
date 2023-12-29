@@ -163,6 +163,10 @@ html_static_path = ['_static', '_images']
 html_css_files = [
     'custom.css',
 ]
+#custom js files for os recognition
+html_js_files = [
+    'js/custom.js',
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
